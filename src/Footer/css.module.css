@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+footer {
+  margin-top: 1%;
+  display: flex;
+  color: #ffffff;
+  padding: 1%;
+  background: linear-gradient(93.29deg, #388af3 21.04%, #a483e2 88.77%);
+}
+.divFooter {
+  display: flex;
+  margin: 1.2%;
+  width: 100%;
+  justify-content: center;
+}
+.ulLi {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+.ulLi li {
+  margin: 0;
+  margin-bottom: 10%;
+}
+.footerLogo {
+  margin-bottom: 69%;
+}
+
+.text1 {
+  margin-right: 5%;
+}
+.text12 {
+  margin-right: 5%;
+}
+@media screen and (max-width: 820px)  {
+  .divFooter {
+    margin: 3% 0;
+  }
+  .text12 {
+    position: absolute;
+    left: 4%;
+    top: 87%;
+  }
+  .text1 {
+    margin-right: 4%;
+  }
+}
